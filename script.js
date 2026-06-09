@@ -10,9 +10,9 @@ let num = 3;
 num++;
 console.log(num);
 
-let Num = 0;
-Num--;
-console.log(Num);
+let number = 0;
+number--;
+console.log(number);
 
 const nameA = 8000;
 const nameB = 12000;
@@ -88,10 +88,10 @@ for(let i = 0; i < addNum.length; i++){
 }
 console.log(total);
 
-const A = [1, 'hoge', 2, 'huga', 3, 'piyo']
+const numberStringArray = [1, 'hoge', 2, 'huga', 3, 'piyo']
 const stringArray = [];
 const numberArray = [];
-for (const item of A) {
+for (const item of numberStringArray) {
     if (typeof item === "string") stringArray.push(item);
     if (typeof item === "number") numberArray.push(item);
 }
@@ -131,8 +131,8 @@ for (let i = 0; i < food.length; i++) {
 
 // 数行でかける
 const name = ["安田","山田","山川"]
-name.forEach((Name)=>{
-    console.log(`${Name}さんにメールを送信しました`);
+name.forEach((userName)=>{
+    console.log(`${userName}さんにメールを送信しました`);
 })
 
 // いつ終わるか決まってない
@@ -145,28 +145,28 @@ while(seaving < goal){
 }
 
 const numbers = [2,4,6,8];
-const doubled = numbers.map(NUM => {
-     return NUM * 2;
+const doubled = numbers.map(numbersNum => {
+     return numbersNum * 2;
 });
 console.log(doubled);
 
 const haNumberThanTree = numbers.some(num => 3 > num);
 console.log(haNumberThanTree);
 
-const Id = [
+const everyArray = [
     { id: 2, hasSubmitted: true },
     { id: 3, hasSubmitted: false },
     { id: 4, hasSubmitted: true },
 ];
-const judge = Id.every(I => I.hasSubmitted === true);
+const judge = everyArray.every(everyObj => everyObj.hasSubmitted === true);
 console.log(judge);
 
-const IDs = [
+const idArray = [
     { id: 2, hasSubmitted: true },
     { id: 3, hasSubmitted: false },
     { id: 4, hasSubmitted: true },
 ];
-const newArray = IDs.filter(Num => Num.hasSubmitted === true);
+const newArray = idArray.filter(filterObj => filterObj.hasSubmitted === true);
 console.log(newArray);
 
 const sortArray = [
