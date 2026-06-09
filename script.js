@@ -1,4 +1,9 @@
-console.log(100 + 80 + 75 + 70 + 80);
+const subject = {国語:100, 数学:80, 英語:75, 理科:70, 社会: 80};
+let result = 0;
+for(let key in subject){
+    result += subject[key];
+}
+console.log(result);
 
 console.log(100000 - 80000);
 
