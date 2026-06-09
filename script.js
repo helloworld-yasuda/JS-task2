@@ -51,13 +51,13 @@ newText.addEventListener("blur",()=>{
     switch(newText.value){
         case "saitama":
             console.log("埼玉");
-        break;
+            break;
         case "tokyo":
             console.log("東京");
             break;
         case "kanagawa":
             console.log("神奈川");
-        break;
+            break;
         default:
             console.log("未確認");
     }
