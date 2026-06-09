@@ -135,8 +135,8 @@ for (let i = 0; i < food.length; i++) {
 }
 
 // 数行でかける
-const name = ["安田","山田","山川"]
-name.forEach((userName)=>{
+const users = ["安田","山田","山川"]
+users.forEach((userName)=>{
     console.log(`${userName}さんにメールを送信しました`);
 })
 
