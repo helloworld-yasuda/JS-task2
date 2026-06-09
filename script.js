@@ -155,8 +155,9 @@ const doubled = numbers.map(numbersNum => {
 });
 console.log(doubled);
 
-const haNumberThanTree = numbers.some(num => 3 > num);
-console.log(haNumberThanTree);
+const someNumbers = [2, 4, 6, 7];
+const oddNumber = someNumbers.some(num => num % 2 !== 0);
+console.log(oddNumber);
 
 const everyArray = [
     { id: 2, hasSubmitted: true },
